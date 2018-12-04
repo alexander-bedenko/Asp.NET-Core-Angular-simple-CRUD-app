@@ -4,9 +4,9 @@
 <table class="table table-striped">
     <thead>
     <tr>
-        <td>Модель</td>
-        <td>Производитель</td>
-        <td>Цена</td>
+        <td>Model</td>
+        <td>Manufacturer</td>
+        <td>Price</td>
         <td></td>
     </tr>
     </thead>
@@ -17,9 +17,9 @@
         <td>{{p?.price}}</td>
         <td>
             <div class="btn-toolbar">
-                <a [routerLink]="['edit', p.id]" class="btn btn-sm btn-primary">Изменить </a>
-                <a [routerLink]="['detail', p.id]" class="btn btn-sm btn-success">Подробнее </a>
-                <button (click)="delete(p.id)" class="btn btn-sm btn-danger">Удалить</button>
+                <a [routerLink]="['edit', p.id]" class="btn btn-sm btn-primary">Change</a>
+                <a [routerLink]="['detail', p.id]" class="btn btn-sm btn-success">Details</a>
+                <button (click)="delete(p.id)" class="btn btn-sm btn-danger">Delete</button>
             </div>
         </td>
     </tr>

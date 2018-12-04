@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "name": "asp.net",
   "private": true,
-  "author": "Eugene Popov <metanit.com>",
+  "author": "Alexander Bedenko",
   "dependencies": {
     "@angular/common": "~6.0.0",
     "@angular/compiler": "~6.0.0",

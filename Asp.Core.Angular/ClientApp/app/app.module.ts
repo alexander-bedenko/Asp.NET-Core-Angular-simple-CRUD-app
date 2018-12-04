@@ -14,7 +14,7 @@ import { NotFoundComponent } from './not-found.component';
 
 import { DataService } from './data.service';
 
-// определение маршрутов
+// route definition
 const appRoutes: Routes = [
     { path: '', component: ProductListComponent },
     { path: 'create', component: ProductCreateComponent },
@@ -27,7 +27,7 @@ const appRoutes: Routes = [
     imports: [BrowserModule, FormsModule, HttpClientModule, RouterModule.forRoot(appRoutes)],
     declarations: [AppComponent, ProductListComponent, ProductCreateComponent, ProductEditComponent,
         ProductFormComponent, ProductDetailComponent, NotFoundComponent],
-    providers: [DataService], // регистрация сервисов
+    providers: [DataService], // registration of services
     bootstrap: [AppComponent]
 })
 export class AppModule { }

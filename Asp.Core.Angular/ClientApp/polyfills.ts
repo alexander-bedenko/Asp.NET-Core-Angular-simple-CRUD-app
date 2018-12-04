@@ -1,5 +1,5 @@
 ﻿import 'core-js/es6';
-// для поддержки Reflect Api
+// for support Reflect Api
 import 'core-js/es7/reflect';
-// zone используется angular
+// zone uses angular
 import 'zone.js/dist/zone';

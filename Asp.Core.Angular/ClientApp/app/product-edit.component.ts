@@ -9,7 +9,7 @@ import { Product } from './product';
 export class ProductEditComponent implements OnInit {
 
     id: number;
-    product: Product;    // изменяемый объект
+    product: Product;    // changed object
     loaded: boolean = false;
 
     constructor(private dataService: DataService, private router: Router, activeRoute: ActivatedRoute) {
